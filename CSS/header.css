@@ -1,0 +1,61 @@
+/* <div class="header">
+    <div class="right">
+      <img class="back-arrow" src="/Post to Git/Spotify/Icons/Header/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png">
+      <img class="forward-arrow" src="/Post to Git/Spotify/Icons/Header/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png">
+    </div>
+    <div class="left">
+      <button class="upgrade">Upgrade</button>
+      <button class="install">Install App</button>
+    </div>
+  </div> */
+
+
+
+
+
+.header{
+  background-color: white;
+  margin-left:100px;
+  height:40px;
+}
+.right{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+  width:60px;
+  gap:10px;
+}
+.back-arrow{
+  object-fit: cover;
+  object-position:center;
+  padding-left:10px;
+  width:30px;
+  height:30px;
+  background-color:grey;
+  border-radius:15px;
+}
+.forward-arrow{
+  object-fit: cover;
+  object-position:center;
+  padding-left:10px;
+  width:30px;
+  height:30px;
+  background-color:grey;
+  border-radius:15px;
+}
+
+.left{
+  display:flex;
+  align-items:end;
+  justify-content:end;
+}
+.upgrade{
+  height:30px;
+  width:80px;
+
+  background-color: white;
+  color:purple;
+  border:1px solid black;
+  border-radius:12px;
+}
